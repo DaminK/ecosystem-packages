@@ -1,0 +1,26 @@
+name: ggml-ot
+description: |
+  ggml-ot improves OT-based comparisons of patient-level data across conditions, disease states and treatments.
+project_home: https://https://github.com/DaminK/ggml-ot
+documentation_home: https://ggml-ot.readthedocs.io/
+tutorials_home: https://ggml-ot.readthedocs.io/en/latest/tutorials/index.html
+publications:
+  - 10.48550/arXiv.2506.15383
+install:
+  pypi: ggml-ot
+tags:
+  - optimal transport
+  - metric learning
+  - patient-level
+  - clustering
+  - trajectory 
+  - classification
+license: MIT
+version: v0.9.9
+contact:
+  - DaminK
+test_command: |
+  pip install poetry && \
+  poetry install --with test && \
+  poetry run pytest
+category: ecosystem
