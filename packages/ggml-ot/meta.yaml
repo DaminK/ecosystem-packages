@@ -13,12 +13,13 @@ tags:
   - metric learning
   - patient-level
   - clustering
-  - trajectory 
+  - trajectory
   - classification
 license: MIT
 version: v0.9.9
 contact:
   - DaminK
+logo: logo.png
 test_command: |
   pip install poetry && \
   poetry install --with test && \
